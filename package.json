@@ -1,0 +1,17 @@
+{
+  "name": "kevinshah-ps",
+  "version": "1.0.0",
+  "description": "My take home test (Kevin Shah)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-hash": "node index.js hash",
+    "test-string": "node index.js string",
+    "test-sorted-set": "node index.js sorted-set"
+  },
+  "author": "Kevin Shah <kevin.mohan.shah@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^4.0.4"
+  }
+}
